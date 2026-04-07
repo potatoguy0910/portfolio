@@ -257,7 +257,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5rem;
-    align-items: center;
+    align-items: top;
     border-top: 1px solid var(--border);
   }
   .about-image-wrap {
@@ -265,7 +265,7 @@
   }
   .about-img-placeholder {
     width: 100%;
-    aspect-ratio: 4/5;
+    aspect-ratio: 5/5;
     background: var(--surface);
     border: 1px solid var(--border);
     clip-path: polygon(0 0, calc(100% - 30px) 0, 100% 30px, 100% 100%, 30px 100%, 0 calc(100% - 30px));
@@ -318,7 +318,7 @@
     letter-spacing: .12em;
     text-transform: uppercase;
     color: var(--muted);
-    margin-top: .3rem;
+    margin-top: 0.3rem;
   }
   .about-text p { color: rgba(226,228,233,.75); margin-bottom: 1.2rem; }
 
