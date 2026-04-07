@@ -556,6 +556,7 @@
 
   /* ── RESPONSIVE ── */
   @media (max-width: 900px) {
+    .hero-bg-line { display: none; }
     nav { padding: 1.2rem 1.5rem; }
     .nav-links { gap: 1.5rem; }
     #hero { grid-template-columns: 1fr; padding: 7rem 1.5rem 4rem; }
@@ -566,6 +567,7 @@
     .project-card:nth-child(n) { grid-column: span 1; }
     .form-row { grid-template-columns: 1fr; }
     footer { padding: 1.5rem; }
+    cursor: auto !important; /* Disable custom cursor on mobile */;
   }
 
  /* ── HAMBURGER MENU ICON ── */
