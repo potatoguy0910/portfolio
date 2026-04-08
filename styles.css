@@ -629,7 +629,7 @@
     body, .btn {
       cursor: auto !important; /* Restore default cursor */
     }
-    a, button, input, textarea, .hamburger {
+    a, button, input, select,  textarea, .hamburger {
       cursor: pointer !important;
     }
     /* Hide the custom cursor elements completely */
