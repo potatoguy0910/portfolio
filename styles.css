@@ -257,7 +257,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5rem;
-    align-items: top;
+    align-items: center;
     border-top: 1px solid var(--border);
   }
   .about-image-wrap {
@@ -265,7 +265,7 @@
   }
   .about-img-placeholder {
     width: 100%;
-    aspect-ratio: 5/5;
+    aspect-ratio: 4/5;
     background: var(--surface);
     border: 1px solid var(--border);
     clip-path: polygon(0 0, calc(100% - 30px) 0, 100% 30px, 100% 100%, 30px 100%, 0 calc(100% - 30px));
@@ -318,7 +318,7 @@
     letter-spacing: .12em;
     text-transform: uppercase;
     color: var(--muted);
-    margin-top: 0.3rem;
+    margin-top: .3rem;
   }
   .about-text p { color: rgba(226,228,233,.75); margin-bottom: 1.2rem; }
 
@@ -556,7 +556,6 @@
 
   /* ── RESPONSIVE ── */
   @media (max-width: 900px) {
-    .hero-bg-line { display: none; }
     nav { padding: 1.2rem 1.5rem; }
     .nav-links { gap: 1.5rem; }
     #hero { grid-template-columns: 1fr; padding: 7rem 1.5rem 4rem; }
@@ -567,7 +566,6 @@
     .project-card:nth-child(n) { grid-column: span 1; }
     .form-row { grid-template-columns: 1fr; }
     footer { padding: 1.5rem; }
-    cursor: auto !important; /* Disable custom cursor on mobile */;
   }
 
  /* ── HAMBURGER MENU ICON ── */
@@ -629,7 +627,7 @@
     body, .btn {
       cursor: auto !important; /* Restore default cursor */
     }
-    a, button, input, select,  textarea, .hamburger {
+    a, button, input, textarea, .hamburger {
       cursor: pointer !important;
     }
     /* Hide the custom cursor elements completely */
